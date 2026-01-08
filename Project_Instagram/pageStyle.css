@@ -1,0 +1,316 @@
+/* Entire Page background style details */
+
+    @font-face {
+        font-family: 'MyCustomFont'; /* A unique name for your font */
+        src: url('fonts/MyCustomFont.woff2') format('woff2'), /* Path to WOFF2 file */
+             url('fonts/MyCustomFont.woff') format('woff');   /* Path to WOFF file */
+        font-weight: normal; /* Define font weight (e.g., normal, bold, 400, 700) */
+        font-style: normal;  /* Define font style (e.g., normal, italic) */
+        font-display: swap;  /* Optional: Controls how font is displayed while loading */
+    }
+
+
+
+body{
+    background-color: black;
+    /* color: white; */
+}
+
+
+/* 1st column design for the banner image */
+
+#selection-01_Panner{
+    text-align: center;
+    margin-top: 45px;
+}
+
+@media screen and (max-width: 786px){
+    #Selection-01_Panner{
+        display:none;
+    }
+}
+
+div .bannerImage01Png{  
+    /* padding-right: 100px; */
+    padding-right: 85px;
+    padding-left: 172px;
+    padding-top: 166px;
+    padding-bottom: 77px;
+    width: 783px;
+}   
+
+/* 2nd column design for the login form */
+
+#selection-02-InputForm .col .headerText{
+    margin-top: 26px;
+    margin-bottom: 33px
+}
+
+/* #selection-02-InputForm .InstaNameBanner{
+    margin-bottom: 50px;
+    padding-left: 45px;
+    mask-image: none;
+} */
+
+
+#selection-02-InputForm h1{
+    margin-right: 221px;
+    font-size: 47px;
+    height: 65px;
+    font-weight: calc();
+    font-family: 'MyCustomFont', sans-serif;;
+    color: white;
+    text-align: center;
+    font-family:'Satisfy', sans-serif;
+    font-style: oblique -13.5deg;
+}
+
+
+div #selection-02-InputForm{
+    padding: 170px 0px 0px 0px;
+}
+
+
+/* Login form input fields style modification */
+
+.container_col-1 .formInfo input{
+    background-color: #121212;
+    color: #dfdfdf;
+    border-color: #a3a3a3;
+    margin-bottom: 6px;
+    width: 268px;
+    height: 40px;
+    padding-left: 8px;
+    padding-top: 9px;
+    padding-bottom: 7px;
+    border-width: 0.5px;
+    border-radius: 5px;
+    font-size: 11.5px;
+    font-weight: 600;
+}
+
+.container_col-1 .formInfo input:hover{
+     cursor: text; 
+}
+
+
+
+/* Login for instagram style modification */
+
+.container_col-1 .formInfo button{
+    margin-top: 8px;
+    margin-bottom: 8px;
+    background: #3441af;
+    border-color: #3441af;
+    color: #b3b3b3;
+    font-size: 14px;
+    font-weight: 700;
+    border-width: 1px;
+    border-radius: 7px;
+    padding: 2px 8px 7px;
+    width: 268px;
+    height: 30px;
+}
+
+.container_col-1 .formInfo button:hover{
+    cursor: auto;
+}
+
+
+/* OR & divider lines style modifications */
+
+
+.col .line-wrapper{
+     margin-bottom: 13px
+}
+
+.line-wrapper span{
+    color: #a8a8a8;
+    text-align: center;
+    font-size: 11.5px;
+    font-weight: 550;
+}
+
+.line-wrapper span:hover{
+    cursor: pointer;
+}
+
+.line-inline{
+    margin-right: 221px;
+    display: inline-block; /* Makes the div behave like an inline element but allows block-level styling */
+    width: 24%; /* Adjust width as needed */
+    height: 1px;
+    background-color: #262626;
+    
+    align-items: start;
+    margin: 0 0px; /* Adds horizontal margin between lines */
+}
+
+/* Facebook login button style modification */
+
+button.facebookLoginButton{
+    margin-left: 53px;
+    background-color: transparent;
+    border: none;
+}
+
+/* facebook icon size modification */
+
+/* .facebookLoginButton{
+    align-items: center;
+} */
+
+button .facebookIcon{
+    width: 20px;
+    height: 19.8833px;
+}
+
+
+/* facebook login text style details */
+button .fbLoginText{
+    color: #0095f6;
+    line-height: 50px;
+    font-size: 14px;
+    margin-left: 5.1px;
+    padding-top: 500px;
+    font-weight: 550;
+    /* height: 150; */
+}
+
+
+/* forgot password text style details */
+
+.forgotPasswordText{
+    margin-left: 46px;
+    margin-right: 266px;
+    border-top-width: 10px;
+}
+
+.textLink{
+    margin-top: -5px;
+    margin-bottom: 45px;
+    
+}
+
+.forgotPasswordText a{
+    margin-top: 0px;
+    color: white;
+    margin-left: 12px;
+    padding-left: 25.56px;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+
+.forgotPasswordText a:hover{
+    text-decoration-line: underline;
+    cursor: pointer;
+}
+
+/* Don't have an Account text style update */
+
+.signupContent{
+    margin-right: 221px;
+}
+
+.signupContent .col{
+    text-align: center;
+    margin-top: 46px;
+}
+
+.signupContent span{
+    padding-left: 12px;
+    color: white;
+    font-size: 14px;
+}
+
+/* Sign up link modification */
+
+.signupBtnLink{
+    color: #708dff;
+    font-size: 15px;
+    font-weight: 520;
+    text-decoration: none;
+}
+
+.signupBtnLink:hover{
+    color: #708dff;
+}
+
+
+/* footer alignment details */
+
+/* .footerSection{
+    font-weight: 501;
+} */
+
+
+/* Navigation footer alignment details for first layer */
+.footerSection{
+    margin-top: 105px;
+    text-align: center;
+}
+
+.footerSection .center-container a{
+    /* font-size: 78%; */
+    font-size: 12.47px;
+    padding-right: 9.5px;
+    color: #999999;
+    text-decoration: none;
+   
+}
+
+
+/* Footer language picker alignment and text alignment */
+
+.footerSection .container .row{
+    padding-top: 11px;
+}
+
+.languagePicker{
+    /* background-color: transparent;
+    color: #999999;
+    border: none;
+    font-size: 12.48px;
+    width:77.9%;
+    padding-inline-start: 430.3px; */
+
+    background-color: transparent;
+    color: #999999;
+    border: none;
+    font-size: 12.48px;
+    width: 100px; 
+    padding-left: 312px;
+    padding-right: 261px;
+    text-align-last: right;  /*reduce dropdown icon and text distance*/
+    /* appearance: none; Removes default arrow (optional)     */
+}
+
+.languagePicker:hover{
+    cursor: pointer;
+}
+
+select option{
+    color: black;
+    background-color: white;
+}
+
+select option:hover{
+    background-color: #a8a8a8;
+}
+
+.col-sm{
+    padding-left: 0px;
+    padding-right: 232px;
+}
+
+div .copyright-Text{
+    /* padding-top: 23px !important;    */
+    width: 2612px;
+    font-size: 12.48px;
+    color: #999999;
+    align-items: flex-start;
+    margin-right: 464px;
+    
+    
+}
